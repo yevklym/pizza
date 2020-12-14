@@ -2,6 +2,8 @@ const express = require("express");
 const expressHbs = require("express-handlebars");
 const hbs = require("hbs");
 const app = express();
+const path = require('path');
+const publicPath = path.join(__dirname, 'public');
 
 
 // set up layout
@@ -22,4 +24,6 @@ app.use("/", function(request, response){
 
     response.render("home.hbs");
 });
-app.listen(80);
+var server = app.listen(80, function () {
+    console.log('listening on port', server.address().port);
+});
