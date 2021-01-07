@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56e3c63c-5622-44b9-947f-92a4f9294a48" name="Default Changelist" comment="Changed a port to 80">
+    <list default="true" id="56e3c63c-5622-44b9-947f-92a4f9294a48" name="Default Changelist" comment="Fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/menu.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/menu.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1l9oLMZtKxLEXynfsB3xmKnnbFV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.19" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,7 +80,13 @@
       <workItem from="1607677490824" duration="1321000" />
       <workItem from="1607877860948" duration="515000" />
       <workItem from="1607895587382" duration="1231000" />
-      <workItem from="1607933893068" duration="165000" />
+      <workItem from="1607933893068" duration="396000" />
+      <workItem from="1607934547375" duration="1363000" />
+      <workItem from="1609605970333" duration="69000" />
+      <workItem from="1609614870723" duration="1043000" />
+      <workItem from="1609938473993" duration="10000" />
+      <workItem from="1609938521654" duration="2582000" />
+      <workItem from="1610014143450" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="CHanged port to 80">
       <created>1607896675198</created>
@@ -92,7 +102,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607896754757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixes">
+      <created>1607934110773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607934110773</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Path fix">
+      <created>1607934713542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607934713542</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Background image compressed">
+      <created>1607937587773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607937587773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +144,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CHanged port to 80" />
     <MESSAGE value="Changed port to 80" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed port to 80" />
+    <MESSAGE value="Fixes" />
+    <MESSAGE value="Path fix" />
+    <MESSAGE value="Background image compressed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Background image compressed" />
   </component>
 </project>

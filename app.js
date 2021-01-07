@@ -20,10 +20,18 @@ hbs.registerPartials(__dirname + "/views/partials");
 app.use(express.static('public'))
 
 
-app.use("/", function(request, response){
+app.get("/", function(request, response){
 
     response.render("home.hbs");
 });
-var server = app.listen(80, function () {
+app.get("/home.hbs", function(request, response){
+
+    response.render("home.hbs");
+});
+app.get("/kontakt.hbs", function(request, response){
+
+    response.render("kontakt.hbs");
+});
+const server = app.listen(80, function () {
     console.log('listening on port', server.address().port);
 });
