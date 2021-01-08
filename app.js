@@ -32,6 +32,7 @@ app.get("/kontakt.hbs", function(request, response){
 
     response.render("kontakt.hbs");
 });
+<<<<<<< HEAD
 
 app.get("/ueberuns.hbs", function(request, response){
 
@@ -40,6 +41,8 @@ app.get("/ueberuns.hbs", function(request, response){
 
 
 
+=======
+>>>>>>> 7e5f19451e724a9ec18f03895f5ee35c880b3660
 const server = app.listen(80, function () {
     console.log('listening on port', server.address().port);
 });
