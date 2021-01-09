@@ -39,6 +39,11 @@ app.get("/karte.hbs", function(request, response){
 });
 
 
+app.get("/reservieren.hbs", function(request, response){
+
+    response.render("reservieren.hbs");
+});
+
 app.get("/ueberuns.hbs", function(request, response){
 
     response.render("ueberuns.hbs");

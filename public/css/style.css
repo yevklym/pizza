@@ -173,6 +173,135 @@ background-repeat: no-repeat;
     vertical-align: top;
 }
 
+
+
+/* reservierung */
+
+
+
+.booking-form label{
+	margin-bottom:5px;
+    margin-top:10px;
+	font-size:20px;
+	display:inline-block;
+	color:#fff;
+	
+	
+
+	 
+	
+}
+
+.booking-form{
+	
+	padding: 0 20px 20px;
+	
+	
+	
+ 
+	
+ 
+}
+
+
+.input{
+	
+	
+	width: 20%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:1px solid #ced4da;
+  display:inline-block;
+  font-size:100px;
+}
+	
+	
+	
+
+
+
+.booking-form-box{
+	
+	max-width:500px;
+	border:2px solid #ced4da;
+	margin:10% auto 0;
+
+	
+}
+.radio-btn{
+	
+	margin:0 2px;
+	font-family:verdana;
+	 font-weight: bold;
+}
+
+.radio-btn .btn{
+	margin:20px  10px 20px 0;
+	box-shadow:none;
+	color:black;
+}
+
+input::placeholder{
+	
+}
+.input-grp label{
+	
+	width :151px;
+	
+	
+	
+}
+.input-grp{
+	
+	width :151px;
+	display:inline-block;
+}
+
+.form-control{
+	
+	font-size:12px !important;
+	border-radius:0!important;
+	color:#fff!important;
+	background :transparent!important;
+	box-shadow:none!important;
+}
+.table{
+	
+	width:100px;
+	height:50px;
+	
+	padding:200px 0;
+	font-size:20px;
+	color:red;
+	font-family:verdana;
+	
+	border:1px solid #ced4da !important;
+	background :transparent!important;
+	box-shadow:none!important;
+	position:relative;
+	left:140px;
+	top:10px;
+   transition-duration: 0.2s;
+  cursor: pointer;
+	border-radius: 5 !important;
+}
+
+#reservieren-header{
+	
+	 display:center;
+	color:white;
+	font-size:50px;
+	 text-align:center;
+	 margin:20px;
+	 vertical-align: bottom;
+	 position:relative;
+	 top:100px;
+	 font-family:Helvetica;
+	
+	 
+}
+
 /* Footer left */
 
 .footer .footer-left {
