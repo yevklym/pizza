@@ -33,6 +33,11 @@ app.get("/kontakt.hbs", function(request, response){
     response.render("kontakt.hbs");
 });
 
+app.get("/karte.hbs", function(request, response){
+
+    response.render("karte.hbs");
+});
+
 
 app.get("/ueberuns.hbs", function(request, response){
 

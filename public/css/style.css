@@ -7,6 +7,7 @@ body {
 
 
 
+
 #intro {
     color: white;
     /*
@@ -108,6 +109,41 @@ body {
 
 
 }
+
+
+
+.myimg{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	display: block; 
+	padding-bottom:10px; 
+}
+.items{
+	text-align: center;
+}
+
+#preise-karte-con {
+background-image: url("../img/menuback.jpg");
+
+background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+	padding: 40px 40px 40px 100px;
+	border: 2px solid #AE9A59;
+  border-radius: 25px;
+}
+
+
+
+.container {
+
+	color: white;
+}
+
+
+
+
 
 
 
