@@ -1,0 +1,74 @@
+
+<br><br><br>
+<div class="container">
+				<h2> Online Bestellung </h2>
+				    <div class="row">
+						<div class="col-2">
+																											
+							<div id="konfig-pizza">						
+								<img src="img/konfig-pizza.png">						
+							</div>
+						</div>
+					<div class="col-3">
+					<div id="konfig-zutaten">
+						<img id="salami" src="img/salami.png" style="visibility:hidden" width="250px" height="250px"/>						
+						<img id="schinken" src="img/schinken.png" style="visibility:hidden" width="250px" height="250px"/>
+						<img id="champignons" src="img/champignons.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="peperoni" src="img/peperoni.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="oliven" src="img/oliven.png" style="visibility:hidden" width="250px" height="150px">
+						<img id="ananas" src="img/ananas.png" style="visibility:hidden" width="450px" height="250px">
+						<img id="scharfesalami" src="img/scharfesalami.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="thunfisch" src="img/thunfisch.png" style="visibility:hidden" width="350px" height="250px">
+						<img id="zwiebeln" src="img/zwiebeln.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="artischocken" src="img/artischocken.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="rucola" src="img/rucola.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="gemuese" src="img/gemuese.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="kirschtomaten" src="img/kirschtomaten.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="basilikum" src="img/basilikum.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="scampi" src="img/scampi.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="hackfleisch" src="img/hackfleisch.png" style="visibility:hidden" width="250px" height="250px">
+						<img id="lachs" src="img/lachs.png" style="visibility:hidden" width="250px" height="250px">						
+					</div>	
+					</div>	
+					</div>					
+					<p> Wählen Sie Ihre gewünschten Zutaten:  <br>
+					Notiz: Bitte wählen Sie nur maximal <strong> 5  Zutaten </Strong> pro Pizza!<br><br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('salami');" /> Salami <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('schinken');" /> Schinken <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('champignons');" /> Champignons <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('peperoni');" /> Peperoni <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('oliven');" /> Oliven <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('ananas');" /> Ananas <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('scharfesalami');" />scharfe Salami <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('thunfisch');" />Thunfisch <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('zwiebeln');" />Zwiebeln <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('artischocken');" />Artischocken <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('rucola');" />Rucola <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('gemuese');" />Gemüse <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('kirschtomaten');" />Kirschtomaten <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('basilikum');" />Basilikum <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('scampi');" />Scampi <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('hackfleisch');" />Hackfleisch <br>
+					<input class="single-checkbox" id=zutat type="checkbox" name="zutaten" value="Zutat" onChange="toggleVisibility('lachs');" />Lachs <br>
+					<p> Größe: <br>
+					<fieldset>
+						<input type="radio" id="klein" name="art" value="klein">
+						<label for="klein"> Klein (26cm) | 8,50€ </label> 
+						<input type="radio" id="groß" name="art" value="groß">
+						<label for="groß"> Groß (32 cm)| 11,00€  </label>
+						<input type="radio" id="party" name="art" value="party">
+						<label for="party"> Party (40 x 59 cm) | 30,00€ </label>
+					</fieldset>
+					
+					<a  href="../bestellen2.hbs"  class="btn btn btn-outline-light my-2 my-sm-0" type="submit" style="font-size: 14pt"><b>Bestellen</b></a>	
+					
+	 
+	 
+	 
+	
+
+</div>	
+
+
+
+		

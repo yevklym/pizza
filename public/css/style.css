@@ -258,6 +258,8 @@ input::placeholder{
 	display:inline-block;
 }
 
+
+
 .form-control{
 	
 	font-size:12px !important;
@@ -287,7 +289,7 @@ input::placeholder{
 	border-radius: 5 !important;
 }
 
-#reservieren-header{
+#justheader{
 	
 	 display:center;
 	color:white;
@@ -295,12 +297,171 @@ input::placeholder{
 	 text-align:center;
 	 margin:20px;
 	 vertical-align: bottom;
+	 vertical-align: bottom;
 	 position:relative;
 	 top:100px;
 	 font-family:Helvetica;
 	
 	 
 }
+
+
+
+/* konfiguration pizza */
+
+#konfig-pizza {
+	width: 0;
+	float: left;
+	text-align: right;
+	background-color: lightgrey;
+	height: 0;
+	font-weight: bold;
+	margin-left: 450px;	
+	margin-right: 500px;
+	margin-top: 160px;
+}
+#konfig-zutaten {
+
+	font-weight: bold;
+	
+}
+
+#salami {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 250px;
+	left: 350px;
+}
+
+#schinken {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 250px;
+	left: 350px;
+}
+
+#champignons {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 200px;
+	left: 350px;
+}
+
+#peperoni {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 250px;
+	left: 300px;
+}
+
+#oliven {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 270px;
+	left: 300px;
+}
+
+#ananas {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 280px;
+	left: 180px;
+}
+
+#scharfesalami {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#thunfisch {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#zwiebeln {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#artischocken {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#rucola {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#gemuese {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#kirschtomaten {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#basilikum {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#scampi {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#hackfleisch {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
+#lachs {
+	position: absolute;
+	float: right;
+	z-index: 5;
+	top: 260px;
+	left: 350px;
+}
+
 
 /* Footer left */
 

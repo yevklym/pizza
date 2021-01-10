@@ -1,7 +1,6 @@
 
-	<body>
-	    <div id=reservieren-header> <p>Reservierung </p> </div>
-		<h6>Reservierung </h6>
+
+	    <div id="justheader"> <p>Reservierung </p> </div>
 		<div class="booking-form-box">
 		
 		<div class="booking-form">
@@ -30,13 +29,43 @@
         <input type="time" id="appt" name="appt">
 		</div>
 		
-		<div class="input-grp">
+		<div class="input-grp2">
+		<br>
+		<button type="button" class="btn btn-primary "  data-toggle="modal" data-target="#exampleModal" style="font-size: 14pt">
+  Reservieren</button>
+
+		</div>
+		</div>
+		</div>
 		
-		<button type="sumbit" class="btn btn btn-outline-light  my-2 my-sm-0 table" style="font-size: 14pt" >Reservieren</button>
-		</div>
-		</div>
-		</div>
-		</div> 
+		<!-- Button trigger reservieren -->
+
+
+<!-- reservieren -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ihre Reservierung wird bestätigt</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        						<p> Vielen Dank für Ihre Reservierung! 
+						<p> Bei Rückfragen setzen wir uns per E-Mail mit Ihnen in Verbindung.
+      </div>
+      <div class="modal-footer">
+       
+        <button type="button" class="btn btn-primary" data-dismiss="modal" >Cancel</button>
+		 <a type="button" href="../home.hbs" class="btn btn-secondary">Save & Exit</button> </a>
+		 
+		 
+      </div>
+    </div>
+  </div>
+</div>
+		
 
 		
 
